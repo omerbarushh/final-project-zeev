@@ -1,0 +1,78 @@
+h1 {
+  font-family: "Pattaya";
+  text-align: center;
+}
+
+#logo {
+  border-radius: 50%;
+}
+
+body {
+  direction: rtl;
+}
+
+.nav-link,
+header li {
+  font-family: "Pattaya";
+  justify-content: space-evenly;
+  margin: 50px;
+  font-size: 30px;
+}
+
+.images img {
+  width: 380px;
+  height: 300px;
+  border: solid black 5px;
+}
+
+.images img:hover {
+  width: 400px;
+  height: 350px;
+  transform: scale(1.2);
+  transition: linear;
+}
+
+.mtitle {
+  text-align: right;
+}
+
+.images-row div {
+  width: 250px;
+  height: 250px;
+}
+
+.image-row div {
+  height: 250px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: normal;
+}
+
+#carouselExampleCaptions img {
+  opacity: 70%;
+}
+
+#form-style {
+  padding: 200px 200px;
+}
+
+#fieldset {
+  margin: 50px;
+  color: black;
+  border: solid black;
+  padding: 50px 50px;
+}
+
+.carousel-inner .carousel-item {
+  width: 2500px;
+  text-align: center;
+  height: 1000px;
+}
+
+.osem-container img {
+  width: 500px;
+  height: 400px;
+  margin-right: 900px;
+}/*# sourceMappingURL=style.css.map */

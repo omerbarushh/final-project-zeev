@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ניו חולון</title>
+    <link rel="stylesheet" href="style.css" />
+    \
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="bs-component">
+        <nav class="navbar navbar-expand-lg bg-success">
+          <div class="container-fluid">
+            <img id="logo" src="logo.png" alt="logo" />
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html">ראשי</a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="about.html"
+                    >עליינו</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="media.html"
+                    >מדיה</a
+                  >
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    ספקים
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="osem.html">אסם</a></li>
+
+                    <li>
+                      <a class="dropdown-item" href="ranch.html">בורגראנץ</a>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="tarshis.html"
+                        >פיצה תרשיש</a
+                      >
+                      <a class="dropdown-item" href="eden.html"> מי עדן</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contectus.html">צור קשר</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search"></form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <hr />
+    <main>
+      <div class="flex-fill container-md my-5">
+        <h1 class="display-3">גלרית התמונות והסרטונים שלנו</h1>
+        <br>
+        <br>
+        <div class="modal lightbox-modal" id="lightbox-modal" tabindex="-1">
+          <div class="modal-dialog modal-fullscreen">
+              <div class="modal-content">
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                  <div class="modal-body">
+                      <div class="container-fluid p-0">
+                          <!-- JS content here -->
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="container mp4"></div>
+      <iframe width="1500px" height="400px" src="https://www.youtube.com/embed/UdP-5u5KPoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="1500px" height="400px" src="https://www.youtube.com/embed/_9jG8s80VL8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+      </div>
+      <div class="row">
+        <h1 class="display-3 ">
+          חגיגה לעיניים!
+        </h1>
+      </div>
+
+      <style>
+        .scale {
+          transition: all 0.8s linear;
+        }
+        .scale:hover {
+          transform: scale(1.2);
+        }
+      </style>
+      <div class="container gallery">
+        <div class="row g-2">
+          <div class="col-4">
+            <img class="img-fluid scale" src="images/עדלאידע1.jpg" alt="בובת ענק דרקון" style="width: 300px; height: 300px;">
+          </div>
+          <div class="col-4">
+            <img class="img-fluid scale" src="images/עדלאידע2.jpg" alt=" בובת ענק כלב" style="width: 300px; height: 300px;">
+          </div>
+          <div class="col-4">
+            <img class="img-fluid scale" src="images/עדלאידע3.jpg" alt="בובת ראש מלא מחשבות" style="width: 300px; height: 300px;">
+          </div>
+          <div class="col-4">
+            <img class="img-fluid scale" src="images/עדלאידע8.jpg" alt="  בובה מהלכת בין אנשים " style="width: 300px; height: 300px;">
+          </div>
+          <div class="col-4">
+            <img class="img-fluid scale" src="images/עדלאידע4.jpg" alt="  בובות על רכבים" style="width: 300px; height: 300px;">
+          </div>
+          <div class="col-4">
+            <img class="img-fluid scale" src="images/עדלאידע5.jpg" alt="   בובות נימפה חלזון" style="width: 300px; height: 300px;">
+          </div>
+          <div class="col-4">
+            <img class="img-fluid scale" src="images/עדלאידע 6.jpg" alt="בובות מיניונים  " style="width: 300px; height: 300px;">
+          </div>
+          <div class="col-4">
+            <img class="img-fluid scale" src="images/עדלאידע7.jpg" alt="תהלוכת תיפוף">
+          </div>
+       
+        </div>
+      </div>
+      </div>
+    </main>
+    <footer class="border">
+      <div class="col-12 copyRight text-center font-header">
+        <p>
+          <br />
+          <a class="holon" href="https://www.holon.muni.il/Pages/default.aspx"
+            >עיריית חולון</a
+          ><br />
+          , ויצמן 58, 58737309 <br />
+          טל': 03-5027222 פקס: 03-6511851 <br />
+          <br />
+          <b>&copy; omer bar 2022</b>
+        </p>
+      </div>
+    </footer>
+</html>

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ניו חולון</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="bs-component">
+        <nav class="navbar navbar-expand-lg bg-success">
+          <div class="container-fluid">
+            <img id="logo" src="logo.png" alt="logo" />
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html">ראשי</a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="about.html"
+                    >עליינו</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="media.html"
+                    >מדיה</a
+                  >
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    ספקים
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="osem.html">אסם</a></li>
+
+                    <li>
+                      <a class="dropdown-item" href="ranch.html">בורגראנץ</a>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="tarshis.html"
+                        >פיצה תרשיש</a
+                      >
+                      <a class="dropdown-item" href="eden.html"> מי עדן</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contectus.html">צור קשר</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search"></form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <hr />
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="false"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/עדלאידע1.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h2 style="color: black">מצעד תחפושות מרהיב ביופיו</h2>
+            <p style="color: black">מתאים לחברים ולמשפחה</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/עדלאידע 6.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h2 style="color: black">דוכני אוכל והופעות חיות</h2>
+            <p style="color: black">משאיות אוכל כולל מנות שפים</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/מסלולעדלאידע.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h2 style="color: black">מסלול הדלאידע</h2>
+            <p style="color: black">
+              הדלאידע מזמינה אותכם להסתכל על המסלול כבר מראש
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <h1 class="mtitle"><ins>מוטי ששון</ins></h1>
+        <div class="w-50 fs-3">
+          <p>
+            מוטי ששון (נולד ב-28 בפברואר 1947) הוא ראש העירייה החמישי של חולון,
+            המכהן בתפקידו מאז 1993. ששון נולד בשנת 1947 בחולון להורים יוצאי חלב
+            וגדל בה. למד בבית הספר היסודי ביאליק בחולון ובתיכון קוגל בחולון.
+            בוגר החוג להיסטוריה של המזרח התיכון והחוגים לשפה וספרות ערבית
+            באוניברסיטת תל אביב. בעל תואר שני במינהל עסקים מהאוניברסיטה העברית
+            בירושלים, ודוקטורנט בחוג למדע המדינה, תוך התמחות במדיניות ציבורית
+            באוניברסיטת בר-אילן. שימש כמנהל מחלקת התקציבים במוסד לביטוח לאומי
+            בשנים 1976–1984. בשנים 1984–1989 כיהן כסגן ראש עיריית חולון, יו"ר
+            ועדת הכספים, יו"ר ועדת כ"א, יו"ר ועדת השקעות, חבר מועצת המנהלים בשתי
+            חברות בת עירוניות וסגן ומ"מ יו"ר איגוד ערים לשירותי כבאות חולון, בת
+            ים ואזור. ששון התמודד לראשות העיר דרך מפלגת העבודה. בתחילת 2020
+            התפטר מחברותו במפלגה עקב משבר אמון בינו ליו"ר עמיר פרץ
+          </p>
+        </div>
+        <br /><br /><br /><br /><br />
+
+        <h1 class="mtitle"><ins>חולון</ins></h1>
+        <div class="w-50 fs-3">
+          <p>
+            חוֹלוֹן היא עיר במחוז תל אביב, העשירית בגודל אוכלוסייתה בישראל. היא
+            ממוקמת מדרום-מזרח לתל אביב, מצפון לראשון לציון, ממזרח לבת ים וממערב
+            לכביש ,שטח השיפוט שלה הוא 19,200 דונם ואוכלוסייתה מונה כ-194,273
+            תושבים (נכון לשנת 2018 ע"פ נתוני הלמ"ס). העיר נוסדה בשנת 1940 כאיחוד
+            של חמש שכונות: גרין, מולדת, אגרובנק, קריית עבודה ושכונת עם. חולון
+            הוכרזה כעיר בשנת 1950. העיר חברה בארגון פורום ה-15, והיא העיר
+            השלישית בגודלה במחוז תל אביב.
+          </p>
+        </div>
+      </div>
+      <div class="col-6">
+        <img src="images/MotiSasson.jpg" alt="" />
+        <br /><br /><br /><br /><br /><br /><br /><br />
+        <img src="images/gansipor.jpg" alt="" />
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <img src="images/iriyatholon.png" alt="" />
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-2">
+        <div class="card" style="width: 18rem">
+          <img src="images/Osem_Logo.svg" class="card-img-top" alt="..." />.
+          <div class="card-body">
+            <p class="card-text">
+              חברת אסם הוקמה בספטמבר 1942, כחברת שיווק משותפת לחמישה יצרנים:
+              "אטריות" מירושלים, "עססית", ו"אורינט" מרמת גן ו"הדגן" ו"ציון" מתל
+              אביב. בין מייסדי החברה נמנו אויגן פרופר (אביהם של דן פרופר וגד
+              פרופר), ד"ר פרנץ קליין, יעקב לורש, עזריאל ויל, שמשון וילמרסדורף,
+              משה קצמן ואליהו חרפק. שמה של החברה מייצג את מהותה של החברה
+              בראשיתה: אסם של תוצרת של בתי חרושת שונים. השם נלקח מתפילתו של הכהן
+              הגדול ביום הכיפורים: "”שֶׁתְּהֵא הַשָּׁנָה הַזּאת שְׁנַת אֹסֶם“".
+              בהמשכה של שהת 1942 הצטרף לחברה בית חרושת "כתר". ביוני 1943, נפתח
+              סניף בחיפה.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card" style="width: 18rem">
+          <img src="images/burgeranch.png" class="card-img-top" alt="..." />.
+          <div class="card-body">
+            <p class="card-text">
+              בורגראנץ' היא רשת מזון מהיר ישראלית, המציעה בעיקר ארוחות המבורגר
+              הכוללות מנת המבורגר בלחמנייה עם שתייה ותוספות שונות. המתחרות
+              העיקריות של החברה הן הרשתות האמריקאיות "מקדונלד'ס" ו"ברגר קינג".
+              נכון לאפריל 2022, הרשת מונה 64 סניפים מקרית שמונה ועד אילת
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card" style="width: 18rem">
+          <img src="images/meyeden.jpg" class="card-img-top" alt="..." />.
+          <div class="card-body">
+            <p class="card-text">
+              מי עדן הוא מותג מים מינרליים בשמו משווקים מאז 1983 מי מעיין סלוקיה
+              מרמת הגולן. המפעל של מי עדן שוכן בקצרין.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card" style="width: 18rem">
+          <img src="images/pizzaTarshis.jpg" class="card-img-top" alt="..." />.
+          <div class="card-body">
+            <p class="card-text">מסעדה איטלקית בעלת מנות מיוחדות ומגוונות.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="border">
+      <div class="col-12 copyRight text-center font-header">
+        <p>
+          <br />
+          <a class="holon" href="https://www.holon.muni.il/Pages/default.aspx"
+            >עיריית חולון</a
+          ><br />
+          , ויצמן 58, 58737309 <br />
+          טל': 03-5027222 פקס: 03-6511851 <br />
+          <br />
+          <b>&copy; omer bar 2022</b>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
